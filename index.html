@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>מישל ון דן סטין ושות' | משרד עורכי דין ונוטריון</title>
+    
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://fonts.gstatic.com; font-src https://fonts.gstatic.com; img-src 'self' data:;">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;600;700;800&family=Noto+Serif+Hebrew:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <!-- Parallax Background Overlay -->
+    <div class="parallax-lines" id="parallax-lines"></div>
+
+    <!-- Cookie Consent Banner (Bottom Bar) -->
+    <div id="cookie-banner" class="cookie-banner">
+        <div class="cookie-banner-inner">
+            <p>אתר זה משתמש בעוגיות לשיפור חווית הגלישה והתאמת תוכן משפטי רלוונטי. לפרטים נוספים ראו את <a href="#" class="open-modal" data-modal="privacy">מדיניות הפרטיות</a>.</p>
+            <div class="cookie-actions">
+                <button id="reject-cookies" class="btn-cookie btn-cookie-reject">דחה</button>
+                <button id="accept-cookies" class="btn-cookie btn-cookie-accept">קבל</button>
+            </div>
+            <button id="close-cookie-banner" class="cookie-close" aria-label="סגור">×</button>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="logo">עו"ד מישל ון דן סטין ושות'</div>
+        <ul class="nav-links">
+            <li><a href="#hero">ראשי</a></li>
+            <li><a href="#about">המשרד</a></li>
+            <li><a href="#how-it-works">איך זה עובד</a></li>
+            <li><a href="#expertise">התמחויות</a></li>
+            <li><a href="#contact" class="btn btn-primary" style="padding: 1rem 2.5rem; font-size: 0.9rem;">תיאום פגישה</a></li>
+        </ul>
+    </nav>
+
+    <!-- Section 1: Hero — Modern Split Panel -->
+    <section id="hero" class="hero section-dark">
+        <div class="container split-content">
+            <div class="image-content">
+                <img src="/portrait_new.jpg" alt="עו&quot;ד מישל ון דן סטין">
+            </div>
+            <div class="text-content">
+                <span class="eyebrow">משרד עורכי דין ונוטריון</span>
+                <h1>מצוינות משפטית<span class="gold">ליווי מקצועי ואישי</span></h1>
+                <p class="hero-subtitle">עו"ד ומגשר מישל ון דן סטין מעניק ליווי משפטי מקיף בתחומי הנדל"ן, הנזיקין והמשפט המסחרי, תוך שילוב של ידע משפטי מעמיק עם ניסיון רב שנים בליווי עסקאות מורכבות.</p>
+                <div class="hero-cta-group">
+                    <a href="#contact" class="btn btn-primary">תיאום פגישת ייעוץ</a>
+                    <a href="#about" class="cta-link">אודות המשרד ←</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-deco-line"></div>
+    </section>
+
+    <!-- Section 2: About the Firm -->
+    <section id="about" class="section-light">
+        <div class="container split-content">
+            <div class="image-content">
+                <img src="/office_interior.png" alt="משרד מישל ון דן סטין - פנים">
+            </div>
+            <div class="text-content">
+                <span class="eyebrow">אודותינו</span>
+                <h2>ניסיון ומוניטין<br>בליווי עסקאות מורכבות</h2>
+                <p>משרד עורכי הדין עו"ד מישל ון דן סטין ושות' הוא משרד בוטיק מוביל הממוקם בנס ציונה. המשרד מתמחה במתן פתרונות משפטיים מקיפים ויצירתיים במגוון תחומי המשפט האזרחי-מסחרי, נדל"ן ומיסוי מקרקעין.</p>
+                <p style="margin-top: 2rem; opacity: 0.7;">עו"ד ון דן סטין ידוע בזכות הופעותיו המקצועיות בפאנלים משפטיים (כגון "מחוץ לבועה") ובזכות יכולתו לנהל תיקים סבוכים תוך דגש על שקיפות מלאה, אמינות וחתירה בלתי מתפשרת להצלחת הלקוח.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Stats Bar (Counters) -->
+    <div class="stats-bar">
+        <div class="stat-item">
+            <span class="counter-num" data-target="30">0</span>
+            <p>שנות מוניטין</p>
+        </div>
+        <div class="stat-item">
+            <span class="counter-num" data-target="1200">0</span>
+            <p>ליווי עסקאות</p>
+        </div>
+        <div class="stat-item">
+            <span class="counter-num" data-target="100">0</span>
+            <p>% הצלחה</p>
+        </div>
+    </div>
+
+    <!-- Section 4: How It Works -->
+    <section id="how-it-works" class="section-dark">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 10rem;">
+                <span class="eyebrow">התהליך המשפטי</span>
+                <h2>איך זה עובד?</h2>
+            </div>
+            
+            <div class="timeline-container">
+                <div class="timeline-item">
+                    <div class="timeline-dot">01</div>
+                    <div class="timeline-content">
+                        <h3>אבחון משפטי</h3>
+                        <p>בחינה מעמיקה של התיק או העסקה, זיהוי סיכונים והזדמנויות והצבת יעדים ברורים.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot">02</div>
+                    <div class="timeline-content">
+                        <h3>תכנון אסטרטגי</h3>
+                        <p>גיבוש הדרך המשפטית הנכונה ביותר, כולל היבטי מיסוי וניהול מו"מ חכם להשגת יתרון מקסימלי.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot">03</div>
+                    <div class="timeline-content">
+                        <h3>ביצוע וליווי</h3>
+                        <p>ייצוג מלא בערכאות השונות, ליווי בחתימת חוזים והשלמת העסקה על הצד הטוב ביותר.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Core Values -->
+    <section class="section-light">
+        <div class="container">
+            <div class="section-title" style="text-align: center; margin-bottom: 8rem;">
+                <span class="eyebrow">הערכים שלנו</span>
+                <h2>הבסיס לכל הליך מוצלח</h2>
+            </div>
+            <div class="values-grid">
+                <div class="value-card">
+                    <span class="material-symbols-outlined icon">verified</span>
+                    <h3>אמינות ושקיפות</h3>
+                    <p>אנו פועלים בשקיפות מלאה מול הלקוח לכל אורך הדרך, תוך מתן מידע אמין בזמן אמת.</p>
+                </div>
+                <div class="value-card">
+                    <span class="material-symbols-outlined icon">psychology</span>
+                    <h3>מקצועיות ללא פשרות</h3>
+                    <p>הידע המשפטי המעמיק והניסיון המצטבר הם המפתח לכל פתרון משפטי מורכב.</p>
+                </div>
+                <div class="value-card">
+                    <span class="material-symbols-outlined icon">rocket_launch</span>
+                    <h3>חתירה לתוצאות</h3>
+                    <p>המיקוד שלנו הוא תמיד בהשגת היעד המשפטי הטוב ביותר עבור הלקוחות שלנו.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 6: Expertise Areas -->
+    <section id="expertise" class="section-dark">
+        <div class="container split-content">
+            <div class="text-content">
+                <span class="eyebrow">תחומי התמחות</span>
+                <h2>ליווי משפטי מקיף<br>בצמתים המרכזיים</h2>
+                <div style="display: grid; gap: 3rem; margin-top: 4rem;">
+                    <div style="display: flex; gap: 2rem;">
+                        <span style="color: var(--secondary); font-size: 2rem; font-weight: 800; opacity: 0.3;">01</span>
+                        <div>
+                            <h3>נדל"ן ומיסוי מקרקעין</h3>
+                            <p style="font-size: 0.9rem; opacity: 0.7;">ליווי עסקאות מכר וקנייה, תכנון מס אופטימלי וטיפול ברישומים מורכבים.</p>
+                        </div>
+                    </div>
+                    <div style="display: flex; gap: 2rem;">
+                        <span style="color: var(--secondary); font-size: 2rem; font-weight: 800; opacity: 0.3;">02</span>
+                        <div>
+                            <h3>משפט אזרחי-מסחרי</h3>
+                            <p style="font-size: 0.9rem; opacity: 0.7;">ליווי עסקים, עריכת חוזים, ליטיגציה מסחרית ודיני חברות.</p>
+                        </div>
+                    </div>
+                    <div style="display: flex; gap: 2rem;">
+                        <span style="color: var(--secondary); font-size: 2rem; font-weight: 800; opacity: 0.3;">03</span>
+                        <div>
+                            <h3>דיני נזיקין וביטוח</h3>
+                            <p style="font-size: 0.9rem; opacity: 0.7;">ייצוג נפגעים בתביעות רכוש וגוף, תאונות והסדרי פשרה מול חברות ביטוח.</p>
+                        </div>
+                    </div>
+                    <div style="display: flex; gap: 2rem;">
+                        <span style="color: var(--secondary); font-size: 2rem; font-weight: 800; opacity: 0.3;">04</span>
+                        <div>
+                            <h3>שירותי נוטריון</h3>
+                            <p style="font-size: 0.9rem; opacity: 0.7;">מתן כל סוגי אישורי הנוטריון, אימות חתימות ותרגומים משפטיים רשמיים.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="image-content">
+                <img src="/portrait_new.jpg" alt="עו&quot;ד מישל ון דן סטין" style="border: 2px solid var(--secondary);">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 7: Premium Contact -->
+    <section id="contact" class="contact-section">
+        <div class="contact-wrapper">
+            <div class="contact-header">
+                <span class="eyebrow">צרו איתנו קשר</span>
+                <h2 class="contact-title">התחילו את<br>התהליך היום</h2>
+                <div class="contact-title-line"></div>
+                <p class="contact-subtitle">אנחנו כאן כדי לתת לכם את המענה המשפטי המדויק והנכון ביותר. צוות המשרד זמין עבורכם לכל שאלה.</p>
+                <div class="contact-info-block">
+                    <div class="contact-info-item">
+                        <span class="material-symbols-outlined">call</span>
+                        <span>03-5610656</span>
+                    </div>
+                    <div class="contact-info-item">
+                        <span class="material-symbols-outlined">location_on</span>
+                        <span>נס ציונה, קמפוס יובלים</span>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form-panel">
+                <form id="lead-form" class="modern-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">שם מלא</label>
+                            <input type="text" id="name" required maxlength="50" placeholder="ישראל ישראלי">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">טלפון</label>
+                            <input type="tel" id="phone" required pattern="[0-9\-+]*" maxlength="15" placeholder="054-000-0000">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">נושא הפנייה</label>
+                        <select id="subject" required>
+                            <option value="" disabled selected>בחרו תחום...</option>
+                            <option value="נדלן">נדל"ן ומיסוי מקרקעין</option>
+                            <option value="נזיקין">דיני נזיקין וביטוח</option>
+                            <option value="מסחרי">משפט אזרחי-מסחרי</option>
+                            <option value="נוטריון">שירותי נוטריון</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="story">ספרו לנו על המקרה</label>
+                        <textarea id="story" rows="4" maxlength="1000" placeholder="תאור קצר של הנושא המשפטי..."></textarea>
+                    </div>
+                    <div class="form-consent">
+                        <input type="checkbox" id="consent" required>
+                        <label for="consent">אני מאשר/ת את שליחת הפרטים ומסכים/ה לתנאי השימוש.</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary contact-submit">שליחת פנייה</button>
+                    <div id="form-feedback" class="form-feedback"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+    </section>
+
+    <!-- Master Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="logo" style="margin-bottom: 2rem;">עו"ד מישל ון דן סטין ושות'</div>
+                    <p style="opacity: 0.5; max-width: 300px;">משרד בוטיק המתמחה בנדל"ן, נזיקין ומשפט מסחרי-אזרחי. ליווי משפטי אישי ומקצועי המבוסס על ניסיון רב שנים והצלחות מוכחות.</p>
+                </div>
+                <div class="footer-col">
+                    <h5>ניווט מהיר</h5>
+                    <ul>
+                        <li><a href="#hero">ראשי</a></li>
+                        <li><a href="#about">המשרד</a></li>
+                        <li><a href="#how-it-works">איך זה עובד</a></li>
+                        <li><a href="#expertise">התמחויות</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h5>התמחויות</h5>
+                    <ul>
+                        <li>מיסוי מקרקעין</li>
+                        <li>משפט מסחרי</li>
+                        <li>דיני נזיקין</li>
+                        <li>שירותי נוטריון</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h5>יצירת קשר</h5>
+                    <p style="color: var(--on-primary); font-weight: 700; margin-bottom: 0.5rem;">רחוב פרופ' אברהם פצ'ורניק 5, פארק המדע נס ציונה</p>
+                    <p style="color: var(--on-primary); opacity: 0.6; font-size: 0.85rem; margin-bottom: 1rem;">קמפוס יובלים, בניין B, קומה 3, משרד 2305 | יש חניה בשפע בקרבת הבניינים</p>
+                    <p style="color: var(--secondary); font-weight: 700; font-size: 1.2rem; margin-bottom: 2rem;">03-5610656</p>
+                    <a href="https://waze.com/ul/hsv8v84ct1" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; gap: 1rem; color: var(--secondary); text-decoration: none; font-weight: 700;">
+                        <span class="material-symbols-outlined">directions_car</span>
+                        נווטו אלינו ב-Waze
+                    </a>
+                </div>
+            </div>
+            
+            <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 4rem; border-top: 1px solid rgba(255,255,255,0.05); font-size: 0.9rem; opacity: 0.4;">
+                <div>© 2026 כל הזכויות שמורות למשרד עו"ד מישל ון דן סטין ושות'.</div>
+                <div style="display: flex; gap: 3rem;">
+                    <a href="#" class="open-modal" data-modal="privacy">מדיניות פרטיות</a>
+                    <a href="#" class="open-modal" data-modal="terms">תנאי שימוש</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modals -->
+    <div id="modal-privacy" class="modal-overlay">
+        <div class="modal-content">
+            <button class="close-modal">×</button>
+            <h2 style="margin-bottom: 3rem;">מדיניות פרטיות</h2>
+            <div class="legal-text" style="line-height: 1.8;">
+                <p>משרד עורכי דין מישל ון דן סטין ושות' מחויב להגנה על פרטיות המשתמשים באתר. המידע הנמסר על ידך בטפסי יצירת הקשר באתר נשמר במאגר המידע של המשרד לצורך מתן מענה משפטי וליווי מקצועי בלבד.</p>
+                <h4 style="margin: 2rem 0 1rem;">איסוף מידע</h4>
+                <p>אנו אוספים פרטי זיהוי אישיים כגון שם, מספר טלפון וכתובת דואר אלקטרוני וכן פרטים אודות המקרה המשפטי כפי שנמסרו על ידך מרצונך החופשי.</p>
+                <h4 style="margin: 2rem 0 1rem;">שימוש במידע</h4>
+                <p>המידע ישמש אך ורק למטרות יצירת קשר ראשוני והערכת סיכויי הטיפול בתיק. המשרד אינו מעביר מידע לצדדים שלישיים ללא הסכמה מפורשת, למעט כמתחייב על פי חוק.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-terms" class="modal-overlay">
+        <div class="modal-content">
+            <button class="close-modal">×</button>
+            <h2 style="margin-bottom: 3rem;">תנאי שימוש</h2>
+            <div class="legal-text" style="line-height: 1.8;">
+                <p>השימוש באתר משרד עורכי דין מישל ון דן סטין ושות' כפוף לתנאים המפורטים להלן. הגלישה באתר מהווה הסכמה לתנאים אלו.</p>
+                <h4 style="margin: 2rem 0 1rem;">חבות משפטית</h4>
+                <p>המידע המופיע באתר אינו מהווה ייעוץ משפטי, חוות דעת משפטית או הצעה למתן שירותים משפטיים. כל הסתמכות על המידע המופיע באתר היא באחריות המשתמש בלבד.</p>
+                <h4 style="margin: 2rem 0 1rem;">קשר עו"ד-לקוח</h4>
+                <p>יצירת קשר באמצעות טפסי האתר או משלוח הודעה אלקטרונית אינם יוצרים יחסי עורך דין-לקוח. יחסים אלו ייווצרו אך ורק לאחר חתימה על הסכם שכר טרחה מסודר ומסירת ייפוי כוח.</p>
+                <h4 style="margin: 2rem 0 1rem;">קניין רוחני</h4>
+                <p>כל זכויות הקניין רוחני באתר, לרבות תכנים, עיצובים וקודי מקור, שייכות בלעדית למשרד עורכי דין מישל ון דן סטין ושות'.</p>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+</body>
+</html>
